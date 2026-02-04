@@ -26,6 +26,8 @@ If two files have identical content, they will be detected as duplicates — eve
 - Cross-platform (Windows, Linux, macOS)
 - No ads, no tracking, no data sent anywhere
 
+<img width="1737" height="369" alt="DuplicateFileFinder" src="https://github.com/user-attachments/assets/6d3747f3-2886-403c-9324-993d121966c9" />
+
 ---
 
 ## 🔒 Why this tool is safe and reliable
@@ -70,3 +72,4 @@ No external dependencies are required.
 
 ```bash
 python DuplicateFileFinder.py scan "C:\Path\To\Directory"
+
